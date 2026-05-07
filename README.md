@@ -62,3 +62,7 @@ In Postman, go to the Authorization tab, select Basic Auth and enter the credent
 3. Set up your `.env` file with your database credentials
 4. Run the schema with `schema.sql` to set up the database
 5. Start the server with `npm start`
+
+
+
+Juat making sure the .env is not showing secrets tihi
