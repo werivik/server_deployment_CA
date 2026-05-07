@@ -25,7 +25,8 @@ const basicAuth = async (req, res, next) => {
         }
 
         next();
-    } catch (error) {
+    } 
+    catch (error) {
         console.log("DB error:", error);
         return res.status(500).json({ error: "Internal server error" });
     }
