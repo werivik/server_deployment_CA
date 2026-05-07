@@ -1,8 +1,10 @@
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
 
+// load enviroment variables from .env file 
 dotenv.config();
 
+// create a connection to the MySQL database using credentials from the said .env
 const pool = mysql.createPool({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
